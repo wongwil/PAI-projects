@@ -1,5 +1,5 @@
 # PAI-projects
-My implementation of several projects for the course "Probabilistic AI" at ETHZ in 2023.
+My implementation of several projects for the course "Probabilistic AI" at ETHZ in 2023.  
 
 ## Task 1:  Gaussian Process Regression for Air Pollution Prediction.
 According to the World Health Organization, air pollution is a major environmental health issue. Both short- and long-term exposure to polluted air increases the risk of heart and respiratory diseases. Hence, reducing the concentration of particulate matter (PM) in the air is an important task.
