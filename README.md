@@ -1,7 +1,7 @@
 # PAI-projects
 My implementation of several projects for the course "Probabilistic AI" at ETHZ in 2023.  
 
-## Task 1:  Gaussian Process Regression for Air Pollution Prediction.
+## Task 1:  Gaussian Process Regression for Air Pollution Prediction
 According to the World Health Organization, air pollution is a major environmental health issue. Both short- and long-term exposure to polluted air increases the risk of heart and respiratory diseases. Hence, reducing the concentration of particulate matter (PM) in the air is an important task.
 
 Our goal is to help a city predict and audit the concentration of fine particulate matter (PM2.5) per cubic meter of air. In an initial phase, the city has collected preliminary measurements using mobile measurement stations. The goal is to develop a pollution model that can predict the air pollution concentration in locations without measurements. This model will then be used to determine suitable residental areas with low air pollution. The city already determined a couple of candidate locations for new residental areas, based on other relevant parameters such as infrastructure, distance to city center, etc.
