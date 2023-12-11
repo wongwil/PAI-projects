@@ -1,0 +1,3 @@
+We have employed a version of the SAC-algorithm for this problem.
+Note that we use the double Q-learning trick, where we approximate two Q networks. We then take the minimum of the two approximators to avoid overestimation
+and leads to more stable learning.

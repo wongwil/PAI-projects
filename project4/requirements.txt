@@ -1,0 +1,5 @@
+pyarmor==6.3.3
+cryptography==39.0
+gym[classic_control]==0.26.2
+torch==2.0.1
+moviepy

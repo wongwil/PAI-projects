@@ -1,0 +1,6 @@
+numpy==1.24.0
+torch==2.0.1
+tqdm==4.66.1
+matplotlib==3.7.3
+pyarmor==6.7.4
+cryptography==3.0

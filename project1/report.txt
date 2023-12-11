@@ -1,0 +1,8 @@
+We tried to find the optimal number of samples such that GP inference was computationally feasible 
+which was 6'000-7'000. We then split the data between validation and training set, where training set 
+is around 6k samples and validation around 3k.
+We then performed a search for the optimal kernel, where Matern with mu=0.5 performed the best 
+(we tried RBF, Matern+WhiteKernel, RationalQuadratic). We used the provided cost_function as scoring method.
+After that we searched for the optimal decision rule to handle with the asymmetric cost-function. We found out that adding the 
+standard deviation for samples in residential areas with a factor of [6, 8] performed the best. We chose 7 and tried it multiple times 
+with different splits of training/validation data and always got a score between 8 and 14 (hard baseline is around 21) on the validation set.

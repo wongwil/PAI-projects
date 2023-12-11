@@ -28,3 +28,4 @@ In each project, there is a docker container which faciliates the package manage
 docker build --tag task1 .; docker run --rm -u $(id -u):$(id -g) -v "$(pwd):/results" task1
 ```
 to build and run the corresponding project.
+
